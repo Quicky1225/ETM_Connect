@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2019603F2B8BA5200049D1DE /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019603E2B8BA5200049D1DE /* UIExtension.swift */; };
+		201960442B8BC1C30049D1DE /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 201960402B8BC1C20049D1DE /* Nunito-Black.ttf */; };
+		201960452B8BC1C30049D1DE /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 201960412B8BC1C30049D1DE /* Nunito-Bold.ttf */; };
+		201960462B8BC1C30049D1DE /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 201960422B8BC1C30049D1DE /* Nunito-Regular.ttf */; };
+		201960472B8BC1C30049D1DE /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 201960432B8BC1C30049D1DE /* Nunito-SemiBold.ttf */; };
+		201960492B8BC7150049D1DE /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201960482B8BC7150049D1DE /* RoundButton.swift */; };
+		2019604B2B8BD2170049D1DE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019604A2B8BD2170049D1DE /* SignInView.swift */; };
+		201960522B8CC6360049D1DE /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 201960512B8CC6360049D1DE /* CountryPicker */; };
+		201960542B8CC70B0049D1DE /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201960532B8CC70B0049D1DE /* CountryPickerUI.swift */; };
+		201960562B8CD8310049D1DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201960552B8CD8310049D1DE /* LoginView.swift */; };
+		201DC23C2C18E82C002EA7B5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DC23B2C18E82C002EA7B5 /* UserModel.swift */; };
+		201DC23F2C18F4E7002EA7B5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DC23E2C18F4E7002EA7B5 /* MainTabView.swift */; };
+		2062C3552B8DD7D5001D2161 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062C3542B8DD7D5001D2161 /* MainViewModel.swift */; };
+		206328352B95FF2900631AAD /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206328342B95FF2900631AAD /* ServiceCall.swift */; };
+		2083899C2C11B7170055BA62 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083899B2C11B7160055BA62 /* Globs.swift */; };
+		2083899F2C11C0420055BA62 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083899E2C11C0410055BA62 /* UIKitExtension.swift */; };
 		20922A602B8B2426002103AC /* ETM_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A5F2B8B2426002103AC /* ETM_ShopApp.swift */; };
 		20922A622B8B2426002103AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A612B8B2426002103AC /* ContentView.swift */; };
 		20922A642B8B242B002103AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20922A632B8B242B002103AC /* Assets.xcassets */; };
@@ -14,6 +30,12 @@
 		20922A712B8B242C002103AC /* ETM_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A702B8B242C002103AC /* ETM_ShopTests.swift */; };
 		20922A7B2B8B242D002103AC /* ETM_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A7A2B8B242D002103AC /* ETM_ShopUITests.swift */; };
 		20922A7D2B8B242D002103AC /* ETM_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A7C2B8B242D002103AC /* ETM_ShopUITestsLaunchTests.swift */; };
+		20922A8B2B8B257F002103AC /* Nunito.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20922A8A2B8B257F002103AC /* Nunito.ttf */; };
+		20922A8D2B8B2598002103AC /* PlayfairDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20922A8C2B8B2597002103AC /* PlayfairDisplay.ttf */; };
+		20922A952B8B2969002103AC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20922A942B8B2969002103AC /* WelcomeView.swift */; };
+		20922A972B8B2AC2002103AC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20922A962B8B2AC2002103AC /* Launch Screen.storyboard */; };
+		20C259732C17AB6600E81C5C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C259722C17AB6600E81C5C /* SignUpView.swift */; };
+		20C43D212B8F554C0015C413 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C43D202B8F554C0015C413 /* LineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2019603E2B8BA5200049D1DE /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		201960402B8BC1C20049D1DE /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		201960412B8BC1C30049D1DE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		201960422B8BC1C30049D1DE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		201960432B8BC1C30049D1DE /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		201960482B8BC7150049D1DE /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		2019604A2B8BD2170049D1DE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		201960532B8CC70B0049D1DE /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		201960552B8CD8310049D1DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		201DC23B2C18E82C002EA7B5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		201DC23E2C18F4E7002EA7B5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2062C3542B8DD7D5001D2161 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		206328342B95FF2900631AAD /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		2083899B2C11B7160055BA62 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		2083899E2C11C0410055BA62 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 		20922A5C2B8B2426002103AC /* ETM_Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETM_Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20922A5F2B8B2426002103AC /* ETM_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETM_ShopApp.swift; sourceTree = "<group>"; };
 		20922A612B8B2426002103AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +81,13 @@
 		20922A762B8B242C002103AC /* ETM_ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETM_ShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20922A7A2B8B242D002103AC /* ETM_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETM_ShopUITests.swift; sourceTree = "<group>"; };
 		20922A7C2B8B242D002103AC /* ETM_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETM_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20922A8A2B8B257F002103AC /* Nunito.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nunito.ttf; sourceTree = "<group>"; };
+		20922A8C2B8B2597002103AC /* PlayfairDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayfairDisplay.ttf; sourceTree = "<group>"; };
+		20922A8E2B8B27AB002103AC /* ETM-Shop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ETM-Shop-Info.plist"; sourceTree = SOURCE_ROOT; };
+		20922A942B8B2969002103AC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		20922A962B8B2AC2002103AC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		20C259722C17AB6600E81C5C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		20C43D202B8F554C0015C413 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201960522B8CC6360049D1DE /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +116,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2019604D2B8CC5870049D1DE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		201DC23D2C18F4C7002EA7B5 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				201DC23E2C18F4E7002EA7B5 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		2083899D2C11BFE20055BA62 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2083899E2C11C0410055BA62 /* UIKitExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		20922A532B8B2426002103AC = {
 			isa = PBXGroup;
 			children = (
+				2019604D2B8CC5870049D1DE /* Packages */,
 				20922A5E2B8B2426002103AC /* ETM_Shop */,
 				20922A6F2B8B242C002103AC /* ETM_ShopTests */,
 				20922A792B8B242D002103AC /* ETM_ShopUITests */,
@@ -94,10 +163,18 @@
 		20922A5E2B8B2426002103AC /* ETM_Shop */ = {
 			isa = PBXGroup;
 			children = (
+				2083899D2C11BFE20055BA62 /* Common */,
+				20922A922B8B28B3002103AC /* UICommon */,
+				20922A912B8B288A002103AC /* ViewModel */,
+				20922A902B8B2873002103AC /* Model */,
+				20922A8F2B8B2856002103AC /* View */,
+				20922A8E2B8B27AB002103AC /* ETM-Shop-Info.plist */,
+				20922A892B8B250B002103AC /* Fonts */,
 				20922A5F2B8B2426002103AC /* ETM_ShopApp.swift */,
 				20922A612B8B2426002103AC /* ContentView.swift */,
 				20922A632B8B242B002103AC /* Assets.xcassets */,
 				20922A652B8B242B002103AC /* Preview Content */,
+				20922A962B8B2AC2002103AC /* Launch Screen.storyboard */,
 			);
 			path = ETM_Shop;
 			sourceTree = "<group>";
@@ -127,6 +204,68 @@
 			path = ETM_ShopUITests;
 			sourceTree = "<group>";
 		};
+		20922A892B8B250B002103AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				201960402B8BC1C20049D1DE /* Nunito-Black.ttf */,
+				201960412B8BC1C30049D1DE /* Nunito-Bold.ttf */,
+				201960422B8BC1C30049D1DE /* Nunito-Regular.ttf */,
+				201960432B8BC1C30049D1DE /* Nunito-SemiBold.ttf */,
+				20922A8C2B8B2597002103AC /* PlayfairDisplay.ttf */,
+				20922A8A2B8B257F002103AC /* Nunito.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		20922A8F2B8B2856002103AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				201DC23D2C18F4C7002EA7B5 /* MainTab */,
+				20922A932B8B2935002103AC /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20922A902B8B2873002103AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				201DC23B2C18E82C002EA7B5 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20922A912B8B288A002103AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2062C3542B8DD7D5001D2161 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20922A922B8B28B3002103AC /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				2019603E2B8BA5200049D1DE /* UIExtension.swift */,
+				201960482B8BC7150049D1DE /* RoundButton.swift */,
+				201960532B8CC70B0049D1DE /* CountryPickerUI.swift */,
+				20C43D202B8F554C0015C413 /* LineTextField.swift */,
+				206328342B95FF2900631AAD /* ServiceCall.swift */,
+				2083899B2C11B7160055BA62 /* Globs.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		20922A932B8B2935002103AC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				20922A942B8B2969002103AC /* WelcomeView.swift */,
+				2019604A2B8BD2170049D1DE /* SignInView.swift */,
+				201960552B8CD8310049D1DE /* LoginView.swift */,
+				20C259722C17AB6600E81C5C /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +282,9 @@
 			dependencies = (
 			);
 			name = ETM_Shop;
+			packageProductDependencies = (
+				201960512B8CC6360049D1DE /* CountryPicker */,
+			);
 			productName = ETM_Shop;
 			productReference = 20922A5C2B8B2426002103AC /* ETM_Shop.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +357,9 @@
 				Base,
 			);
 			mainGroup = 20922A532B8B2426002103AC;
+			packageReferences = (
+				201960502B8CC6360049D1DE /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = 20922A5D2B8B2426002103AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +376,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201960452B8BC1C30049D1DE /* Nunito-Bold.ttf in Resources */,
 				20922A672B8B242B002103AC /* Preview Assets.xcassets in Resources */,
+				201960462B8BC1C30049D1DE /* Nunito-Regular.ttf in Resources */,
+				201960472B8BC1C30049D1DE /* Nunito-SemiBold.ttf in Resources */,
+				20922A8B2B8B257F002103AC /* Nunito.ttf in Resources */,
+				20922A8D2B8B2598002103AC /* PlayfairDisplay.ttf in Resources */,
+				20922A972B8B2AC2002103AC /* Launch Screen.storyboard in Resources */,
 				20922A642B8B242B002103AC /* Assets.xcassets in Resources */,
+				201960442B8BC1C30049D1DE /* Nunito-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201960542B8CC70B0049D1DE /* CountryPickerUI.swift in Sources */,
+				2019604B2B8BD2170049D1DE /* SignInView.swift in Sources */,
 				20922A622B8B2426002103AC /* ContentView.swift in Sources */,
+				201DC23F2C18F4E7002EA7B5 /* MainTabView.swift in Sources */,
+				2083899F2C11C0420055BA62 /* UIKitExtension.swift in Sources */,
+				201960492B8BC7150049D1DE /* RoundButton.swift in Sources */,
+				20922A952B8B2969002103AC /* WelcomeView.swift in Sources */,
+				2083899C2C11B7170055BA62 /* Globs.swift in Sources */,
 				20922A602B8B2426002103AC /* ETM_ShopApp.swift in Sources */,
+				201960562B8CD8310049D1DE /* LoginView.swift in Sources */,
+				2019603F2B8BA5200049D1DE /* UIExtension.swift in Sources */,
+				20C259732C17AB6600E81C5C /* SignUpView.swift in Sources */,
+				2062C3552B8DD7D5001D2161 /* MainViewModel.swift in Sources */,
+				206328352B95FF2900631AAD /* ServiceCall.swift in Sources */,
+				201DC23C2C18E82C002EA7B5 /* UserModel.swift in Sources */,
+				20C43D212B8F554C0015C413 /* LineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +588,12 @@
 				DEVELOPMENT_TEAM = RZU25T7WC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ETM-Shop-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -437,7 +606,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,9 +621,12 @@
 				DEVELOPMENT_TEAM = RZU25T7WC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ETM-Shop-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -467,7 +639,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -607,6 +779,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		201960502B8CC6360049D1DE /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		201960512B8CC6360049D1DE /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 201960502B8CC6360049D1DE /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20922A542B8B2426002103AC /* Project object */;
 }

@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct ETM_ShopApp: App {
+    
+    @StateObject var mainVM = MainViewModel.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView{
+                
+                if mainVM.isUserLogin {
+                    MainTabView()
+                } else {
+                    WelcomeView()
+                }
+            }
         }
     }
 }

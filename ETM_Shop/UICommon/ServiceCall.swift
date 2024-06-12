@@ -34,7 +34,13 @@ class ServiceCall {
             request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
 
                 if(isToken) {
-                    request.addValue(MainViewModel.shared.userObj.authToken, forHTTPHeaderField: "access_token")
+                    
+                    #if DEBUG
+                        request.addValue("DQMs9UaxbbJoLG1YUFgv", forHTTPHeaderField: "access_token")
+                    #else
+                        request.addValue(MainViewModel.shared.userObj.authToken, forHTTPHeaderField: "access_token")
+                    #endif
+                    
                 }
             request.httpMethod = "POST"
             request.httpBody = parameterData as Data

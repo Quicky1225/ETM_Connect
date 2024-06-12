@@ -18,6 +18,8 @@ struct Globs {
     static let SV_LOGIN = BASE_URL + "login"
     
     static let SV_SIGN_UP = BASE_URL + "sign_up"
+    
+    static let SV_HOME = BASE_URL + "home"
 }
 
 struct KKey {
@@ -36,11 +38,11 @@ class Utils {
         return UserDefaults.standard.value(forKey: key) as Any
     }
     
-    class func UDValueBool(key: String) -> Any {
+    class func UDValueBool(key: String) -> Bool {
         return UserDefaults.standard.value(forKey: key) as? Bool ?? false
     }
     
-    class func UDValueTrueBool(key: String) -> Any {
+    class func UDValueTrueBool(key: String) -> Bool {
         return UserDefaults.standard.value(forKey: key) as? Bool ?? true
     }
     

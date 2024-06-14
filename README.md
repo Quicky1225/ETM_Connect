@@ -1,6 +1,7 @@
 # ЭТМ-Коннект: Мобильное приложение для интернет-магазина стройматериалов и инструментов
 
-![ETM-Connect Logo](assets/etm-connect-logo.png)
+![logo black](https://github.com/Quicky1225/ETM_Connect/assets/75904650/065bd3e3-9d38-4971-b0ee-ff7213ae7172)
+
 
 ## Описание проекта
 
@@ -18,7 +19,8 @@
 
 ### Каталог товаров
 
-![Catalog Screenshot](assets/catalog-screenshot.png)
+![image](https://github.com/Quicky1225/ETM_Connect/assets/75904650/6c96da62-457b-4646-ab6a-06198fea7138)
+
 
 ### Корзина и оформление заказа
 
